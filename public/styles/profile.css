@@ -1,0 +1,10 @@
+:root{
+    --c-main: #151515;
+    --c-dop: #c89338;
+}
+.profileAvatar{
+    width: 100%;
+    margin: 15px 0px;
+    border-radius: 100%;
+    background-color: var(--c-main);
+}

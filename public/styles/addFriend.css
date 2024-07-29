@@ -1,0 +1,21 @@
+:root{
+    --c-main: #151515;
+    --c-dop: #c89338;
+}
+.row{
+    display: flex;
+}
+
+.custButton{
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: black;
+    color: var(--c-dop);
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid var(--c-dop);
+}
+.custButton:active{
+    background-color: var(--c-dop);
+    color: var(--c-main);
+}

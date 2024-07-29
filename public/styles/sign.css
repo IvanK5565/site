@@ -1,0 +1,39 @@
+:root{
+    --c-main: #151515;
+    --c-dop: #c89338;
+}
+input{
+    margin: 5px 0px;
+}
+label{
+    color: var(--c-dop);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+.sign{
+    align-items: start;
+}
+.sign form input{
+    border-radius: 10px;
+    border: var(--c-dop) solid 2px;
+    background-color: #151515;
+    color: var(--c-dop);
+    height: 30px;
+}
+#hidePswd{
+    height: auto;
+}
+.sign form label{
+    font-weight: 700;
+}
+.hidePswdCheck{
+    font-size: 12px;
+}
+
+#Submit{
+    background-color: var(--c-dop);
+    color: black;
+    width: 100%;
+    font-weight: 700;
+    font-size: larger;
+}
